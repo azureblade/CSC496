@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework 2</title>
+
+    <script src="code.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Homework 2</h1>
+            <h2>Matthew Wallace</h2>
+        </div>
+
+        <div class="problems">
+            <div>s
+
+ <!--  Problem 1
+   Create a variable to store the radius of a circle. Assign the variable some value. Calculate and display the the circle's diameter, circumference, and area.-->
+                <button class="button" onclick="getElementById('problem-one').innerHTML = problemOne()">Problem One</button>
+                <p id="problem-one"></p>
+<!--
+ Problem 2
+ Write a function that takes one argument, a temperature in Celsius, and returns that temperature in Fahrenheit. Print out the resulting temperature. Feel free to hard code the Celsius temperature, or if you wish accept the temperature as input via a text box.
+ -->
+                <button class="button" onclick="getElementById('problem-two').innerHTML = problemTwo(input[2])">Problem Two</button>
+                <p id="problem-two"></p>
+<!--
+ Problem 3
+ Write a function that takes one argument, the user's birthday year. The function shall return an array whose elements are the possible ages of the user. Only the user's birthday should be hardcoded -- not 2014. Utilize JavaScript functions to return the current calendar year (2014).
+ -->
+                <button class="button" onclick="getElementById('problem-three').innerHTML = problemThree(input[3])">Problem Three</button>
+                <p id="problem-three"></p>
+<!--
+ Problem 4
+ Write a function that takes one numeric argument and displays that number reversed in an alert box. (i.e. 12345 -> 54321)
+ -->
+                <button class="button" onclick="getElementById('problem-four').innerHTML = problemFour(input[4])">Problem Four</button>
+                <p id="problem-four"></p>
+<!--
+Problem 5
+Write a function that generates three random numbers and outputs the largest number.
+ -->
+                <button class="button" onclick="getElementById('problem-five').innerHTML = problemFive()">Problem Five</button>
+                <p id="problem-five"></p>
+<!--
+ Problem 6
+ Write a function that generates all combinations of a given String, and returns the combinations as elements in an array. (i.e. 'bad' -> ['b','ba','bad','a','ad','d'])
+-->
+                <button class="button" onclick="getElementById('problem-six').innerHTML = problemSix(input[6])">Problem Six</button>
+                <p id="problem-six"></p>
+<!--
+ Problem 7
+ Write a function that accepts one argument and returns the typeof the argument.
+ -->
+                <button class="button" onclick="getElementById('problem-seven').innerHTML = problemSeven(input[7])">Problem Seven</button>
+                <p id="problem-seven"></p>
+<!--
+ Problem 8
+ Write a function that takes an array of numbers and finds the second lowest and second greatest numbers. The function should return an object with this information
+-->
+                <button class="button" onclick="document.getElementById('problem-eight').innerHTML = problemEight(input[8])">Problem Eight</button>
+                <p id="problem-eight"></p>
+<!--
+ Problem 9
+ Write a function that takes two arguments, an array with numeric elements and a number. The function should iterate over the array, and in-place, delete all elements in the array that are smaller than the second argument number.
+ -->
+                <button class="button" onclick="getElementById('problem-nine').innerHTML = problemNine(input[9].arg1, input[9].arg2)">Problem Nine</button>
+                <p id="problem-nine"></p>
+<!--
+ Problem 10
+ Write a function that takes one numeric argument, n, and outputs the first n happy numbers.
+-->
+                <button class="button" onclick="getElementById('problem-ten').innerHTML = problemTen(input[10])">Problem Ten</button>
+                <p id="problem-ten"></p>
+<!--
+ Problem 11
+ Duplicate your above function so that it also incorporates a try/catch block to check for a negative n.
+ -->
+                <button class="button" onclick="getElementById('problem-eleven').innerHTML = problemEleven(input[11])">Problem Eleven</button>
+                <p id="problem-eleven"></p>
+<!--
+ Problem 12
+ Write a function that accepts a number as input and returns a numeric-like string that has "pluses" + inserted between every two even digits. (i.e. 2647522 -> 2+6+4752+2)
+ -->
+                <button class="button" onclick="getElementById('problem-twelve').innerHTML = problemTwelve(input[12])">Problem Twelve</button>
+                <p id="problem-twelve"></p>
+<!--
+ Problem 13
+ Write a function that accepts an array argument and returns the most frequent item. (i.e. [5, 'a', 'a', 'a', 3, 1, 'a', 4, 'a', 4, 4] -> "a 5")
+ -->
+                <button class="button" onclick="getElementById('problem-thirteen').innerHTML = problemThirteen(input[13])">Problem Thirteen</button>
+                <p id="problem-thirteen"></p>
+<!--
+ Problem 14
+ Write a function that prints the properties of an object by iterating over them
+ -->
+                <button class="button" onclick="getElementById('problem-fourteen').innerHTML = problemFourteen(input[14])">Problem Fourteen</button>
+                <p id="problem-fourteen"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<head>
+	<title> Matt Wallace's Resume</title>
+	<H1><span style="color: lightgrey; font-size: 18px;">Matthew</span> <span style="color: darkgrey; font-size: 30px">Wallace</span></h1>
+	</head>
+
+	<div id="info">
+		<ul> <h3>Contact info </h3>
+			<li>email: MW772798@wcupa.edu</li>
+			<li>phone: (215) 262-0235</li>
+		</ul>
+	</div>
+<body>
+	<div id="content">
+	<div id="lang">
+		
+			<h2>Languages and Technology</h2>
+			<ul id="lan">
+				<li>Java</li>
+				<li>JavaScript</li>
+				<li>Ruby</li>
+				<li>PHP</li>
+				<li>Quintus Game Engine</li>
+				<li>GameMaker Game Engine</li>
+			</ul>
+		</div>
+		<div id="work">
+			<h2>Work Experience</h2>
+			<ul>
+				<li>WCU Networking and Telecommunications Intern</li>
+				<ul>
+<li>Time worked: 6 months</li>
+<li class="title">Title: Intern</li>
+<li class="comp">Company: WCU</li>
+<li>Description: CLASSIFIED</li>
+				</ul>
+				<li>ResNet Senior Consultant</li>
+				<ul>
+<li>Time worked: 2.5 years</li>
+<li class="title">Title: Head Consultant</li>
+<li class="comp">Company: WCU</li>
+<li>Description: Troubleshooting and maintinance for student and university machines.</li>
+				</ul>
+			</ul>
+		</div>
+		<div id="course">
+			<h2>Courses Taken</h2>
+			<ul id="cor">
+				<li>Networking</li>
+				<li>Java programming I</li>
+				<li>Java programming II</li>
+				<li>Java programming III</li>
+				<li>Security I</li>
+					<li>Security II</li>
+			</ul>
+		</div>
+	</div>
+
+		<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+   <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var centerX = canvas.width / 2;
+      var centerY = canvas.height / 2;
+      var radius = 70;
+
+      context.beginPath();
+      context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+      context.fillStyle = 'yellow';
+      context.fill();
+      context.lineWidth = 1;
+      context.strokeStyle = '#003300';
+      context.stroke();
+
+      context.beginPath();
+      context.rect(95, 50, 40, 10);
+      context.fillStyle = 'black';
+      context.fill();
+      context.beginPath();
+      context.rect(165, 50, 40, 10);
+      context.fillStyle = 'black';
+      context.fill();
+
+      context.beginPath();
+      context.arc(150, 115, 30, Math.PI, 0, false);
+      context.closePath();
+      context.lineWidth = 5;
+      context.fillStyle = 'black';
+      context.fill();
+    </script>
+		</canvas>
+	</body>
+
+
+	</html>

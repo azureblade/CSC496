@@ -1,0 +1,66 @@
+h1{
+	font-family: monospace;
+}
+li.title{
+font-weight: bold;
+text-decoration: none;
+}
+
+li.comp{
+font-style: italic;
+text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+#work li::before{
+	list-style-type: none;
+}
+
+#work ul li:before{
+
+	content: "\00BB \0020";
+
+}
+
+#content{
+	border: solid;
+}
+#work{
+	list-style-type: none;
+	content: "\00BB \0020";
+}
+
+
+#cor, #lan{
+	list-style-type: none;
+}
+
+
+#course, #work, #lang {
+	padding-left: 20px;
+
+}
+#info{
+	line-height: 200%;
+}
+
+#course{
+	color: red;
+}
+
+#lang{
+	color: blue;
+}
+
+#work{
+	color: green;
+}
+
+#work ul :first-child{
+	text-decoration: underline;
+}
+
+#work ul ul :first-child{
+	text-decoration: none;
+}
