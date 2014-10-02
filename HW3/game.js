@@ -328,6 +328,7 @@ var PlayerShip = function () {
         if (Game.keys['bomb'] && bomb_count > 0) {
             Game.keys['bomb'] = false;
             this.board.add(new PlayerBomb(this.x + this.w, this.y + this.h / 2));
+            this.board.add(new PlayerBomb(this.x + this.w, this.y - this.h / 2));
             bomb_count--;
             Game.bomb_counter--;
         }

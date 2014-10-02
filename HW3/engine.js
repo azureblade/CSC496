@@ -294,7 +294,7 @@ Level.prototype.step = function (dt) {
         this.board.add(new PoisonPill());
     }
 
-    if (Math.random() < 0.0002) {
+    if (Math.random() < 0.002) {
         this.board.add(new Bomb());
     }
 };
