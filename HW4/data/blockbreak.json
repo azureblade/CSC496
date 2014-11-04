@@ -24,5 +24,14 @@
         "tilew":60,
         "tileh":20,
         "frames":2
+    },
+
+    "paddle2": {
+        "sx":60,
+        "sy":40,
+        "cols":2,
+        "tilew":60,
+        "tileh":20,
+        "frames":1 
     }
 }
