@@ -1,0 +1,37 @@
+{
+    "left-arrow": {
+        "sx":0,
+        "sy":0,
+        "cols":1,
+        "tilew":120,
+        "tileh":118,
+        "frames":1
+    },
+
+    "right-arrow": {
+        "sx":120,
+        "sy":0,
+        "cols":1,
+        "tilew":120,
+        "tileh":118,
+        "frames":1
+    },
+
+    "unchecked": {
+        "sx":240,
+        "sy":0,
+        "cols":1,
+        "tilew":120,
+        "tileh":118,
+        "frames":1
+    },
+
+    "checked": {
+        "sx":360,
+        "sy":0,
+        "cols":1,
+        "tilew":120,
+        "tileh":118,
+        "frames":1
+    }
+}

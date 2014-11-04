@@ -1,0 +1,21 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-color: rgb(20,20,20);
+}
+
+
+#blockbreak {
+    display: none;
+    margin-top:130px;
+    margin-left: -30px;
+    border: 2px solid #3F3F3F;
+}
+
+#footer {
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+    font-family: tahoma;
+    color: white;
+}
